@@ -1,0 +1,10 @@
+INSERT INTO position(account_id, security_id, long_quantity, short_quantity) VALUES('A01','S10',10,-2);
+INSERT INTO position(account_id, security_id, long_quantity, short_quantity) VALUES('A02','S11',10,-2);
+INSERT INTO position(account_id, security_id, long_quantity, short_quantity) VALUES('A03','S12',10,-2);
+INSERT INTO position(account_id, security_id, long_quantity, short_quantity) VALUES('A04','S13',10,-2);
+INSERT INTO position(account_id, security_id, long_quantity, short_quantity) VALUES('A05','S14',10,-2);
+INSERT INTO position(account_id, security_id, long_quantity, short_quantity) VALUES('A06','S15',10,-2);
+INSERT INTO position(account_id, security_id, long_quantity, short_quantity) VALUES('A07','S16',10,-2);
+INSERT INTO position(account_id, security_id, long_quantity, short_quantity) VALUES('A08','S17',10,-2);
+INSERT INTO position(account_id, security_id, long_quantity, short_quantity) VALUES('A09','S18',10,-2);
+INSERT INTO position(account_id, security_id, long_quantity, short_quantity) VALUES('A10','S19',10,-2);

@@ -1,0 +1,17 @@
+type Position {
+  accountId: String!
+  securityId: String!
+  longQuantity: Long!
+  shortQuantity: Long!
+}
+
+type Query {
+  getAllPositions: [Position]!
+  getPositionByKey(accountId: String!, securityId: String!): Position!
+}
+
+type Mutation {
+  newPosition(accountId: String!, securityId: String!, longQuantity: Long!, shortQuantity: Long!) : Position!
+  deletePosition(accountId: String!, securityId: String!) : Boolean
+  updatePosition(accountId: String!, securityId: String!, longQuantity: Long!, shortQuantity: Long!) : Position!
+}
